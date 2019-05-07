@@ -1,1 +1,91 @@
-ECHO is on.
+body {
+    background-color: lightgrey;
+}
+.panel .name {
+    font-family: "Gugi", cursive;
+    font-size: 48px;
+    color: red;
+}
+
+.panel {
+    font-size: 22px;
+    font-family: "Gugi", cursive;
+}
+
+#addButton {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    background-color: lightgray;
+}
+
+.text {
+    margin-top: 3%;
+}
+
+/*gif div*/
+
+#gifForm {
+    text-align: center;
+}
+
+#startingButtons {
+    margin: 5%;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+
+.topic {
+    font-family: "Gugi", cursive;
+    font-size: 20px;
+}
+
+/*form*/
+
+form {
+    text-align: center;
+    font-family: "Gugi", cursive;
+}
+
+#gif-input {
+    margin: 2%;
+}
+
+label {
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 20px;
+}
+
+#addGif {
+    text-align: center;
+    font-family: "Gugi", cursive;
+    padding: 3%;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+}
+
+/*gif image area and appeared gifs*/
+
+.jumbotron {
+    background-color: transparent !important;
+}
+
+.jumbotron img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.item p {
+    font-family: "Gugi", cursive;
+    text-align: center;
+}

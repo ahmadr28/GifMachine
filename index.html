@@ -1,1 +1,38 @@
-ECHO is on.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/assets/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet" />
+
+        <title>GifMachine</title>
+    </head>
+    <body>
+        <div class="panel" id="startingButtons">
+            <div class="panel-heading">
+                <h3 class="panel name">GifMachine!</h3>
+                <p>click a button to see some funny gifs, or add your own!</p>
+            </div>
+            <div id="addButton" class="panel-body"></div>
+            <p id="text">(click the gif to play, pause, and restart!)</p>
+        </div>
+        <form id="gifForm">
+            <label form="gifInput">Add a button!</label>
+            <input type="text" id="gif-input" />
+            <br />
+            <input id="addGif" type="submit" value="Add" />
+        </form>
+        <div style="background:transparent !important" id="gifsAppearHere" class="jumbotron myJumbotron"></div>
+    </body>
+    <script src="/assets/main.js"></script>
+</html>
