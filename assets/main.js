@@ -34,7 +34,7 @@ function addGif() {
         var p = $(this).data("name");
         var apiKey = "NLP7mpZTlcS2zzHLDkdcvIjR8kgLjBQJ";
 
-        var queryURL = `http://api.giphy.com/v1/gifs/search?q=${p}&api_key=NLP7mpZTlcS2zzHLDkdcvIjR8kgLjBQJ&limit=10`;
+        var queryURL = `https://api.giphy.com/v1/gifs/search?q=${p}&api_key=NLP7mpZTlcS2zzHLDkdcvIjR8kgLjBQJ&limit=10`;
 
         $.ajax({ url: queryURL, method: "GET" }).done(function(response) {
             var results = response.data;
